@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<title>SIGN IN</title>
+</head>
+
+<body>
+
+	<div class="app">
+		<h1>SIGN IN</h1>
+		<table class="gr-elem">
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>PATIENT HAS CONFIRMED</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<ul>
+						<li>IDENTITY</li>
+						<li>SITE</li>
+						<li>PROCEDURE</li>
+						<li>CONSENT</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>SITE MARKED/ NOT APPLICABLE</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>ANAESTHESIA SAFETY CHECK COMPLETED</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>PULSE OXIMETER ON PATIENT AND FUNCTIONING</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>DOES A PATIENT HAVE A:</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>KNOWN ALLERGY?</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>NO</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>YES</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>DIFFICULT AIRWAY/ ASPIRATION RISK?</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>NO</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" />
+				</td>
+				<td>YES, AND EQUIPMENT/ ASSISTANCE AVAILALBLE</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>RISK OF > 500ML BLOOD LOSS (7ML/KG IN CHILDREN)?</td>
+				<tr>
+					<td>
+						<input type="checkbox" />
+					</td>
+					<td>NO</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" />
+					</td>
+					<td>YES, AND ADEQUATE INTRAVENOUS ACCESS AND FLUIDS PLANNED</td>
+				</tr>
+			</tr>
+		</table>
+		<p><em>Team leader A. Popescu</em></p>
+		<button class="s-choose-button" onclick="window.open('time-out.html', '_self', 'location=yes');">DONE</button>
+
+	</div>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="barcodescanner.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		app.initialize();
+	</script>
+
+</body>
+
+</html>

@@ -47,7 +47,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    /*background:url(../img/logo.png) no-repeat center top;*/ /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
@@ -115,6 +115,7 @@ h1 {
 }
 
 /* CUSTOM CSS */
+
 @font-face {
   font-family: "San Francisco";
   font-weight: 200;
@@ -123,10 +124,98 @@ h1 {
 .choose-button {
 	color: white;
 	background-color: #00bfa5;
+	border: none;
 	height: 100px;
-	width: 300px;
+	width:	100%;
 	font-family: "San Francisco";
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: 200;
 	text-transform: capitalize;
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.s-choose-button {
+	background-color: #00bfa5;
+	border: none;
+	color: white;
+	width: 50%;
+	height: auto;
+	float: right;
+	font-family: "San Francisco";
+	font-size: 20px;
+	font-weight: 200;
+}
+.scan-button {
+	color: white;
+	background-color: #e53935;
+	border: 0;
+	border-radius: 150px;
+	height: 100px;
+	width:	100%;
+	font-family: "San Francisco";
+	font-size: 30px;
+	font-weight: 200;
+	text-transform: capitalize;
+	margin-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.scan-img {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.apr {
+	margin-top 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	height: 50px;
+}
+.avatar {
+	width: 50%;
+	height: auto;
+}
+.list-members {
+	text-align: left;
+}
+.gr-elem {
+	font-size: 13px;
+	text-align: left;
+}
+.send-pdf-button {
+	background-color: #e53935;
+	border: none;
+	color: white;
+	width: 30%;
+	height: auto;
+	float: left;
+	font-family: "San Francisco";
+	font-size: 20px;
+	font-weight: 200;
+}
+.store-button {
+	background-color: #e53935;
+	border: none;
+	color: white;
+	width: 30%;
+	height: auto;
+	font-family: "San Francisco";
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: auto;
+	margin-right: auto;
+}
+.p-s-button {
+	background-color: #e53935;
+	border: none;
+	color: white;
+	width: 30%;
+	height: auto;
+	font-family: "San Francisco";
+	font-size: 20px;
+	font-weight: 200;
+	float: right;
 }
