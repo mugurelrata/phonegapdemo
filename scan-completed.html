@@ -10,19 +10,20 @@
     </head>
 	
     <body>
-		
+		<div class="top-bar"><h1>SCAN COMPLETED</h1></div>
         <div class="app">
-			
-            <h1>Scan completed</h1>
-           	<img src="img/avatar.png" class="scan-img" />
+           		<button class="scan-button" onclick="window.open('scaning.html', '_self', 'location=yes');">RESCAN</button>
+			<h1>Patient details</h1>
 			<p>Name: Popescu</p>
 			<p>Prenume: Ion</p>
 			<br>
 			<br>
 			<p>Team safety leader</p>
-			<button class="s-choose-button" onclick="window.open('scan-tsm.html', '_self', 'location=yes');">Next ></button>
-
-        </div>
+			    </div>
+			<div class="app-footer">
+			<button class="s-choose-button" onclick="window.open('scan-tsl.html', '_self', 'location=yes');">Next &gt;</button>
+</div>
+    
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="barcodescanner.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

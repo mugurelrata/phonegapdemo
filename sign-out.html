@@ -11,10 +11,8 @@
 </head>
 
 <body>
-
-	<div class="app">
-		<h1>SIGN OUT</h1>
-		<table class="gr-elem">
+		<div class="top-bar"><h1>SIGN OUT</h1></div>
+	<table class="gr-elem">
 			<tr>
 				<td>
 
@@ -23,41 +21,44 @@
 			</tr>
 			<tr>
 				<td>
-					<input type="checkbox" />
+					<input type="checkbox" id="o21"/>
 				</td>
-				<td>THE NAME OF THE PROCEDURE RECORDED</td>
+				<td><label for="o21">THE NAME OF THE PROCEDURE RECORDED</label></td>
 			</tr>
 			<tr>
 				<td>
-					<input type="checkbox" />
+					<input type="checkbox" id="o22"/>
 				</td>
 				<td>
-					THET INSTRUMENT, SPONGE AND NEEDLE COUNTS ARE CORRECT (OR NOT APPLICABLE)
+					<label for="o22">THET INSTRUMENT, SPONGE AND NEEDLE COUNTS ARE CORRECT (OR NOT APPLICABLE)</label>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<input type="checkbox" />
+					<input type="checkbox" id="o23"/>
 				</td>
-				<td>HOW THE SPECIMEN IS LABELLED (INCLUDING PATIENT NAME)</td>
+				<td><label for="o23">HOW THE SPECIMEN IS LABELLED (INCLUDING PATIENT NAME)</label></td>
 			</tr>
 			<tr>
 				<td>
-					<input type="checkbox" />
+					<input type="checkbox" id="o24"/>
 				</td>
-				<td>WHETHER THERE ARE ANY EQUIPMENT PROBLEMS TO BE ADDRESSED</td>
+				<td><label for="o24">WHETHER THERE ARE ANY EQUIPMENT PROBLEMS TO BE ADDRESSED</label></td>
 			</tr>
 			<tr>
 				<td>
-					<input type="checkbox" />
+					<input type="checkbox" id="o25"/>
 				</td>
-				<td>SURGEON, ANAESTHESIA PROFESSIONAL AND NURSE REVIEW THE KEY CONCERNS FOR RECOVERY AND MANAGEMENT OF THIS PATIENT
+				<td><label for="o25">SURGEON, ANAESTHESIA PROFESSIONAL AND NURSE REVIEW THE KEY CONCERNS FOR RECOVERY AND MANAGEMENT OF THIS PATIENT</label>
 				</td>
 			</tr>
 			
 		</table>
+	<div class="app-footer">
+
+		
 		<p><em>Team leader A. Popescu</em></p>
-		<button class="send-pdf-button" onclick="window.open('', '_self', 'location=yes');">SEND PDF</button>
+		<button class="send-pdf-button" onclick="window.open('', '_self', 'location=yes');">SEND</button>
 		<button class="s-choose-button" onclick="window.open('who-checklist.html', '_self', 'location=yes');">DONE</button>
 		
 
